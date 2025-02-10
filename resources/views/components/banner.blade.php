@@ -1,4 +1,6 @@
-<div class="w-full max-w-screen-2xl mx-auto mt-[150px] lg:mt-20">
-    {{-- <img  class="w-full h-[420px] object-contain"/> --}}
-    <img class="h-[220px] md:w-full max-w-full object-contain md:object-cover" src="{{ asset('image/Untitled-2.jpg') }}" alt="image description">
+<div class="w-full max-w-screen-2xl mx-auto mt-[120px] lg:mt-20">
+    <div class="grid grid-cols-1 h-[150px] sm:h-[180px] md:h-[200px] relative">
+        <img class=" w-full  absolute top-0 left-0 h-full object-cover" src="{{ asset('image/Untitled-2.jpg') }}" alt="image description">
+    </div>
+    
 </div>

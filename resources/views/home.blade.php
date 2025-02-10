@@ -222,9 +222,9 @@
 
 
     {{-- advertisement banner start --}}
-    <div class="w-full max-w-screen-2xl mx-auto my-10">
+    <div class="w-full max-w-screen-2xl relative mx-auto my-10">
 
-        <img class="h-[250px] md:w-full max-w-full object-cover" src="{{ asset('image/banner.jpg') }}"
+        <img class=" md:w-full max-w-full object-cover" src="{{ asset('image/banner.jpg') }}"
             alt="image description">
     </div>
     {{-- advertisement banner end --}}

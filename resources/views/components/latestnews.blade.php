@@ -1,4 +1,4 @@
-<div class="w-full max-w-screen-2xl mx-auto my-10 bg-white px-6 py-6">
+<div class="w-full max-w-screen-2xl mx-auto mb-10 bg-white px-6 py-6">
     <div class="flex flex-row gap-3 items-center  ">
         <span class="relative flex size-3">
             <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>

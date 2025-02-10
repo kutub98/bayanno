@@ -8,7 +8,7 @@
                         class="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
                     <span class="relative inline-flex size-3 rounded-full bg-red-500"></span>
                 </span>
-                <img src="{{ asset('image/logo.png') }}" class=" h-10 w-20 object-cover"/>
+                <img src="{{ asset('image/logo.png') }}" class=" h-10 w-20 object-cover" />
                 {{-- <h1 class="text-xl font-bold text-gray-700"> দৈনিক বায়ান্ন </h1> --}}
             </div>
 
@@ -128,20 +128,20 @@
                 </div>
                 <div class="flex flex-col gap-4">
 
-                    <a href="#"  class="flex flex-row gap-3 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('image/facebook.png') }}" class="h-6 w-6 object-cover"/>
+                    <a href="#" class="flex flex-row gap-3 hover:scale-105 transition duration-500">
+                        <img src="{{ asset('image/facebook.png') }}" class="h-6 w-6 object-cover" />
                         <span class="text-gray-600">Facebook</span>
                     </a>
-                    <a href="#"  class="flex flex-row gap-3 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('image/twitter.png') }}" class="h-6 w-6 object-cover"/>
+                    <a href="#" class="flex flex-row gap-3 hover:scale-105 transition duration-500">
+                        <img src="{{ asset('image/twitter.png') }}" class="h-6 w-6 object-cover" />
                         <span class="text-gray-600">X</span>
                     </a>
-                    <a href="#"  class="flex flex-row gap-3 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('image/instagram.png') }}" class="h-6 w-6 object-cover"/>
+                    <a href="#" class="flex flex-row gap-3 hover:scale-105 transition duration-500">
+                        <img src="{{ asset('image/instagram.png') }}" class="h-6 w-6 object-cover" />
                         <span class="text-gray-600">Facebook</span>
                     </a>
-                    <a href="#"  class="flex flex-row gap-3 hover:scale-105 transition duration-500">
-                        <img src="{{ asset('image/youtube.png') }}" class="h-6 w-6 object-cover"/>
+                    <a href="#" class="flex flex-row gap-3 hover:scale-105 transition duration-500">
+                        <img src="{{ asset('image/youtube.png') }}" class="h-6 w-6 object-cover" />
                         <span class="text-gray-600">Youtube</span>
                     </a>
                 </div>
@@ -149,5 +149,11 @@
 
         </div>
     </div>
-    <div class="flex justify-center border-t-2 py-3"></div>
+
+</div>
+<div class="flex  w-full max-w-screen-2xl mx-auto justify-between px-6 gap-6 border-t-2 py-3 bg-white">
+    <a href="#" class="text-sm text-gray-500">All Rights &copy; {{ date('Y') }} | Dainik Bayanno</a>
+    <div class="flex gap-3">
+        <a href="#" class="text-sm text-gray-500">গোপনীয়তা ও নীতি | শর্তবলী</a>
+    </div>
 </div>

@@ -1,4 +1,4 @@
-<div class="w-full max-w-screen-2xl mx-auto px-6 py-10  bg-gray-200 overflow-hidden bottom-0">
+<div class="w-full max-w-screen-2xl mx-auto px-6 py-10  bg-gray-200 overflow-hidden bottom-0 border-t-2 border-gray-200">
 
     <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-8">
         <div class="flex flex-col gap-3">

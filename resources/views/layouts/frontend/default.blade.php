@@ -14,7 +14,7 @@
     }
 </style>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
+<body >
     @include('includes.frontend.navbar')
     @yield('content')
     @include('includes.frontend.footer')

@@ -8,6 +8,7 @@
 body{
     font-family: "Kanit", serif;
      font-family: "Hind Siliguri", serif;
+     background-color: whitesmoke;
 }
 .custom-scrollbar::-webkit-scrollbar {
     height: 0;  

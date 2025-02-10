@@ -2,7 +2,7 @@
     <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 
-            <img src="{{ asset('image/logo.png') }}" class="h-8" alt="Flowbite Logo">
+            <img src="{{ asset('image/logo.png') }}" class="h-8" alt="bayanno Logo">
         </a>
         <div class="flex lg:order-2 space-x-2 gap-0  rtl:space-x-reverse">
             <div class="text-center ">
